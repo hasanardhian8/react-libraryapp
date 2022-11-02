@@ -1,11 +1,21 @@
-import React from 'react'
+import React from "react";
 
 const SignUp = () => {
   return (
     <div>
-      <h1>SignUp</h1>
+      <form>
+        <div>
+          <label>username</label>
+        </div>
+        <div>
+          <label>email</label>
+        </div>
+        <div>
+          <label>password</label>
+        </div>
+      </form>
     </div>
-  )
-}
+  );
+};
 
-export default SignUp
+export default SignUp;
